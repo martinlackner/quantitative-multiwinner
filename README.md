@@ -4,9 +4,9 @@ Python code for running the experiments in "A Quantitative Analysis of Multi-Win
 
 Requires:
 * Python 2.7
-* [abcvoting](https://github.com/martinlackner/abcvoting) (and its prerequisite)
+* [abcvoting](https://github.com/martinlackner/abcvoting) (and its prerequisites)
 
-The preflib files in [preflibdata](preflibdata/) are exactly the files used in our experiments and are stored here for replicability. Source: [preflib.org](http://www.preflib.org/)
+The preflib files in [preflibdata](preflibdata/) are exactly the files used in our experiments and are stored here for replicability (source: [preflib.org](http://www.preflib.org/))
 
 
 
