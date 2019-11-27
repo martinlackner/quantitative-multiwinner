@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import random
 import numpy as np
 from operator import itemgetter
+import preflibio
 import pickle
 import os.path
 import abcvoting.score_functions as sf
