@@ -6,7 +6,6 @@ import numpy as np
 from operator import itemgetter
 import pickle
 import os.path
-import preflibio
 import abcvoting.score_functions as sf
 from gmpy2 import mpq
 from scipy import stats
@@ -78,9 +77,9 @@ def generate_profiles_preflib(committeesize):
     picklefile = "instances-"+exp_name+".pickle"
     if not os.path.exists(picklefile):
         print "generating instances", exp_name
-        files = os.listdir("preflib/.")
+        files = os.listdir("preflibdata/.")
         for fn in files:
-            inf = open("preflib/"+fn, "r")
+            inf = open("preflibdata/"+fn, "r")
             candmap, rankmaps, rankmapcounts, num_votes =\
                 preflibio.read_election_file(inf)
             num_cand = max(candmap)-min(candmap)+1
