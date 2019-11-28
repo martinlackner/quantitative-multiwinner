@@ -239,7 +239,7 @@ def exp1(mode):
             num_inst, num_cand, num_voters, committeesize, setsizes, 0)
 
     elif mode == "IC":
-        num_inst = 1000
+        num_inst = 10000
         num_cand = 100
         num_voters = 50
         committeesize = 20
