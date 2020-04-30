@@ -1,11 +1,13 @@
 # quantitative-multiwinner
 
-Python code for running the experiments in "A Quantitative Analysis of Multi-Winner Rules" by Martin Lackner and Piotr Skowron [1].
+Python code for running the experiments in "Utilitarian Welfare and Representation Guarantees of Approval-Based Multiwinner Rules" by Martin Lackner and Piotr Skowron [1].
 
 ## Requirements
 
 * Python 2.7
-* [abcvoting](https://github.com/martinlackner/abcvoting) (and its prerequisites)
+* [abcvoting v1.0.0](https://github.com/martinlackner/abcvoting/releases/tag/v1.0.0)
+* Gurobi (and gurobipy)
+* gmpy2
 
 
 ## Replicability
@@ -16,4 +18,4 @@ The preflib files in [preflibdata](preflibdata/) are exactly the files used in o
 ## References
 
 [1] Martin Lackner, Piotr Skowron:
-A Quantitative Analysis of Multi-Winner Rules. CoRR abs/1801.01527 (2018) https://arxiv.org/abs/1801.01527
+Utilitarian Welfare and Representation Guarantees of Approval-Based Multiwinner Rules. Artificial Intelligence (2020) https://arxiv.org/abs/1801.01527
